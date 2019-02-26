@@ -1,0 +1,132 @@
+body {
+    /* background-color: rgb(51, 51, 51); */
+    background-color: pink;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    /* color: #404040; */
+    color: #555;
+    /* background-image: url(http://arttecsolar.com/wp-content/uploads/2015/03/Earth-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+} 
+
+header.index{
+  background-color: #263d36;
+  background-image: url(/img/Earth-Background.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+header.reptilians{
+  background-color: #263d36;
+  background-image: url(/img/putin-reptilian.png);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 40vh 2em;
+  text-align: center;
+}
+
+img.center{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+}
+
+p{
+  text-align: justify;
+}
+
+
+
+h1{
+  color: #ffffff;
+  font-size: 2.5em;
+  font-weight: 300;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h2 {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: #333;
+}
+
+main{
+  background-color: #e8e8e8;
+  height: 100%;
+}
+
+.pannel {
+    padding-top: 5em;
+    margin: auto;
+    max-width: 50em;
+    width: 90%;
+    padding-bottom: 5em;
+}
+
+
+img.Woke{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+a{
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+a.ToTop {
+    color: #e8e8e8;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #404040;
+}
+
+
+#response {
+    text-align: left;
+}
+
+button {
+    background-color: #696969;
+    color: white;
+}
+
+
+img.illuminati-img{
+  max-width: 25%;
+  position: relative;
+  float: right;
+  padding: 1em;
+}
+
+footer{
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  height: 8em;
+  position: absolute;
+}
+
+footer ul{
+  list-style-type: none;
+  padding-top: 1em;
+}
+
+p.footnote{
+  text-align: right;
+  margin: 0em 1em;
+}

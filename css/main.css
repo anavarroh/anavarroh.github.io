@@ -1,6 +1,6 @@
 body {
     /* background-color: rgb(51, 51, 51); */
-    background-color: pink;
+    background-color: #e8e8e8;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0 auto;
     padding: 0;
@@ -129,4 +129,16 @@ footer ul{
 p.footnote{
   text-align: right;
   margin: 0em 1em;
+}
+
+div.overlay{
+  height: 100%; 
+  width: 100%; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  z-index: 1000000; 
+  position: fixed; 
+}
+
+figure figcaption{
+  text-align: center;
 }

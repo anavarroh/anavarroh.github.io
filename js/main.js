@@ -81,3 +81,14 @@ var AboutUs = function (a) {
     }
 }
 
+function overlay(element) {
+    var overlay = document.getElementsByClassName("overlay")[0];
+    if(overlay.style.display == "none"){
+        overlay.style.display = "block";
+        overlay.innerHTML = "<figure style='margin:auto; height:100vh; text-align:center; color:white;'><img src='" + element.src + "' style='margin-top:10%; max-width:60%; max-height:60  %;' ><figcaption><i>They are listening</i></figcaption></figure>";
+        console.log(element.src);
+    }
+    else{
+        overlay.style.display = "none";
+    }
+}
